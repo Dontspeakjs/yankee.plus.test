@@ -1,0 +1,140 @@
+.burger-menu--mobile{
+
+	flex-direction: column;
+	padding: 0px;
+
+	& .burger-menu__header{
+		width: 100%;
+		display: grid;
+		grid-template-columns: 1fr min-content 1fr;		
+		background-color: #747474;
+	}
+
+	* .logo{
+		padding: 20px 0;
+	}
+
+	& .burger-menu__header .dropdown-menu--mobile{
+		margin-left: 20px;
+	} 
+
+	& .burger-menu__header .dropdown__variant{
+	    display: block;
+	    color: #fff;
+	    text-align: center;
+	    position: relative;
+	    border-top: 2px solid #CCA88A;
+	    z-index: 10;
+	    background: #838383;
+	    padding: 4px 9px;
+	}
+
+	& .burger-menu__body{
+		width: 100%;
+		padding: 20px;
+	}
+
+	& .left-side-wrapper{
+		display: flex;
+   		justify-content: flex-start;
+   		align-items: center;
+   		padding-left: 22px;
+	}
+
+	& .burger-menu__close-trigger--mobile{
+		width: 34px;
+	    height: 34px;
+	}
+
+	& .right-side-wrapper{
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		padding-right: 22px;
+	}
+
+	& .search-form-wrapper .dropdown__cur-selection-text{
+		color : #252525;
+	}
+
+	& .search-form-wrapper .icon-language-change{
+		color : #252525;		
+	}
+
+	& .search-form-wrapper .dropdown__variant{
+		color : #252525;
+		background-color: #ffffff;		
+	}
+
+	& .search-form{
+		position: relative;
+	}
+
+	& .search-form-wrapper{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+
+	& .search-form__input::placeholder{
+	  color: #252525;
+	  font-size: 16px;
+	}
+
+	& .user-panel__icon{
+		font-size: 20px;
+	}
+
+	& .search-form__icon{
+	    position: absolute;
+	    transform: translate(0px, -50%);
+	    top: 50%;
+	    font-size: 20px;
+	    right: 20px;
+	}
+
+	& .burger-menu-mobile__user-icon{
+		margin-right: 10px;
+		font-size: 20px;
+	}
+
+	& .burger-menu-mobile__user-icon::before{
+		color: $baseUiColor;
+	}
+
+	& .search-form__icon::before{
+	    color: #252525;
+	}	
+
+	& .search-form__input{
+		width: 261px;
+	    height: 40px;
+	    border-radius: 20px;
+	    border: 0.3px solid #252525;
+	    outline: none;
+	    padding: 10px 54px 10px 20px;
+	}
+
+	& .burger-menu-mobile__list-item{
+		text-align: center;
+	}
+
+	& .burger-menu-mobile__list-item a{
+
+	}
+
+	& .burger-menu-mobile__list-item{
+		border-top: 1px solid #252525;
+		padding: 20px;
+	}
+	& .burger-menu-mobile__list-item:last-child{
+		border-bottom: 1px solid #252525;
+	}
+
+
+}
+
+.burger-menu--mobile-hidden{
+	display: none !important;
+}
