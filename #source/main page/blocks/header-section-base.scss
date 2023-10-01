@@ -1,0 +1,24 @@
+.section-header{
+
+	& header{
+		display: grid;
+		grid-template-columns: 1fr min-content 1fr;
+	}
+
+	& header .left-side-wrapper,
+	& header .right-side-wrapper{
+		display: flex;
+		align-items: center;
+	}
+
+	& header .right-side-wrapper{
+		justify-content: flex-end;
+	}
+
+}
+
+@media (max-width: 370px){
+	.section-header{
+		height: 667px;
+	}
+}

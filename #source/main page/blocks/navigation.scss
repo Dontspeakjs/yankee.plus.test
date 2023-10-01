@@ -1,0 +1,11 @@
+.navigation__list{
+
+	display: flex;
+	color: #fff;
+	padding-left: 104px;
+
+	& .navigation__list-item:not(& .navigation__list-item:first-child){
+		margin-left: 25px;
+	}
+
+}

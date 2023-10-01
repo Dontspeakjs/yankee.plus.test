@@ -1,0 +1,45 @@
+.title{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	& .title__header{
+		color: #fff;
+		font-weight: 300;
+	}
+
+	& .title__decor{
+		width: 120px;
+		height: 1px;
+		background-color: #fff;
+		margin: 20px 0;
+	}
+
+	& .title__watch-new{
+		color: #fff;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		font-size: 46px;
+	}
+
+	& .title__text{
+		font-size: 16px;
+	}
+
+}
+
+@media (max-width: 370px) {
+
+	.title{
+
+		& .title__header{
+			font-size: 29px;
+   			white-space: nowrap;
+		}
+
+	}
+	
+}

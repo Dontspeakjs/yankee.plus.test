@@ -1,0 +1,53 @@
+.dropdown-menu{
+
+	color: #fff;
+	width: 56px;
+	position: relative;
+
+	& .dropdown__hovered{
+		padding: 4px 0;
+	}
+
+	& .dropdown__menu-wrap{
+		display: none;
+		position: absolute;
+	}
+
+	& .dropdown__variant{
+		display: block;
+		color: #fff;
+		text-align: center;
+		border-top: 2px solid $baseUiColor;
+	    padding: 4px 9px;
+	}
+
+	& .dropdown__hovered:hover{
+		cursor: pointer;
+	}
+
+	&:hover .dropdown__menu-wrap{
+		display: block;
+	}
+
+	.dropdown__variant:hover{
+		background-color: #bcbcbc69;
+	}
+
+}
+
+.dropdown-menu-lang{
+	margin-right: 24px;
+}
+
+.dropdown-menu-money{
+	margin-right: 70px;
+}
+
+@media (max-width: 370px) {
+
+	// .dropdown-menu{
+	// 	margin: 0 0 0 24px !important;
+	// }
+
+}
+

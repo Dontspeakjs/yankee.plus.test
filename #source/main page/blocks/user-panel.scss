@@ -1,0 +1,12 @@
+.user-panel{
+
+	.user-panel__icon:not(& a:first-child .user-panel__icon){
+		margin-left: 30px;
+	}
+
+	.user-panel__icon{
+		font-size: 25px;
+	}
+
+}
+

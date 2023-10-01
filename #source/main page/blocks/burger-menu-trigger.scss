@@ -1,0 +1,27 @@
+.burger-menue-trigger{
+
+	& span{
+		display: block;
+		height: 4px;
+		background-color: #fff;
+	}
+
+	& span:first-child{
+		width: 34px;
+	}
+
+	& span:nth-child(2){
+		width: 26px;
+		margin-top: 6px;		
+	}
+
+	& span:last-child{
+		width: 18px;	
+		margin-top: 6px;	
+	}
+
+	&:hover{
+		cursor: pointer;
+	}
+
+}
