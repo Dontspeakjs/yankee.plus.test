@@ -1,0 +1,51 @@
+html{
+	font-family: $RalewayFont;
+}
+
+.content{
+	background-color: #f5f5f5;
+	max-width: 1440px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.header-section-bg{
+	background: url('../img/main page bg/girl_desctop_bg.jpg');
+}
+
+.section-header{
+	max-width: 1140px;
+	height: 900px;
+	margin: 0 auto;
+	background-size: 100% 100%;
+	position: relative;
+}
+
+
+.--hidden{
+	display: none !important;
+}
+
+.header-mobile{
+	display: none !important;
+}
+
+@media (max-width: 370px) {
+
+	.header-desctop{
+		display: none !important;
+	}	
+
+	.header-mobile{
+		display: grid !important;
+	}
+
+	.header-section-bg{
+		background: url('../img/main page bg/girl_mobile_bg.jpg');
+	}
+
+	.section-header{
+		padding: 20px;
+	}
+
+}
